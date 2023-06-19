@@ -85,7 +85,7 @@ export default function EpisodeDetailsPage() {
     <>
       <main className="flex flex-col items-center h-screen">
         <div className="max-w-2xl p-6">
-          <div className="pb-6 border-b border-white/20">
+          <div className="pb-6 mb-6 border-b border-white/20">
             <Image
               src={episode?.posterUrl || "/seinfeld.webp"}
               alt=""
