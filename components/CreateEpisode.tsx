@@ -58,6 +58,7 @@ export default function CreateEpisode({ onClose }: CreateEpisodeProps) {
       title="Add a New Episode"
       handleSubmit={handleSubmit}
       handleChange={handleChange}
+      handleClose={onClose}
     />
   );
 }

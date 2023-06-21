@@ -63,6 +63,7 @@ export default function UpdateEpisode({
       handleSubmit={handleSubmit}
       handleChange={handleChange}
       episode={episode}
+      handleClose={closeModal}
     />
   );
 }
